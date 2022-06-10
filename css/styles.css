@@ -15,13 +15,13 @@
     --blue: #1877f2;
     --indigo: #6610f2;
     --purple: #6f42c1;
-    --pink: #e83e8c;
+    --pink: #cf649a;
     --red: #dc3545;
     --orange: #ff5500;
     --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
-    --cyan: #17a2b8;
+    --cyan: #61dafb;
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
@@ -132,6 +132,10 @@ ul,
 dl {
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
 }
 
 ol ol,
@@ -494,6 +498,21 @@ mark,
 }
 .list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
+}
+.list-inline-item .fa-html5 {
+    color: var(--orange);
+}
+.list-inline-item .fa-css3-alt {
+    color: var(--blue);
+}
+.list-inline-item .fa-js-square {
+    color: var(--yellow);
+}
+.list-inline-item .fa-react {
+    color: var(--cyan);
+}
+.list-inline-item .fa-sass {
+    color: var(--pink);
 }
 
 .initialism {
@@ -10215,7 +10234,8 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-    color: var(--primary) !important;
+    color: var(--green) !important;
+    font-weight: 500;
 }
 
 a.text-primary:hover,
